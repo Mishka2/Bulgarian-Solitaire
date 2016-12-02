@@ -25,9 +25,9 @@ public class BulgSolitaire {
     
         if(testNum % 1 == 0 ){
         	t = 10000000;
-        	t--;
         	numCards = numCardsTest;
         }else{
+		t--;
         	System.out.print("Try again! That number is not triangular. ");
         }
 	}
